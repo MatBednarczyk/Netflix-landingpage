@@ -83,7 +83,7 @@ img {
   text-align: center;
   position: relative;
   justify-content: center;
-  margin: 8rem auto 0 auto;
+  margin:2rem auto 2rem auto;
   width: 640px;
   z-index: 2;
   
@@ -218,4 +218,49 @@ img {
 
 .watch-evr {
   display: flex;
+}
+
+/* QA content*/
+
+.Q-A {
+  border-top: 0.5rem solid #222;
+  margin:0 auto;
+  
+}
+
+.Q-A h1{
+  font-size: 3rem;
+  text-align: center;
+  margin: 4rem 1rem;
+}
+
+.Q-A h3{
+  font-size: 1.75rem;
+  font-weight: 200;
+}
+
+.qa-block {
+  display: block;
+  margin-top: 0.5rem;
+  background: #222;
+  margin:0 auto;
+  border-bottom:0.5rem solid #000;
+  max-width: 786px;
+}
+
+.question {
+  padding: 1rem 2rem;
+  border-bottom:2px solid #000;
+  display: block;
+}
+
+.question i{
+  color:white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  float: right;
+    
+}
+.answear {
+  padding: 1rem 2rem;
 }

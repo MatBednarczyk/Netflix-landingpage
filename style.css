@@ -112,10 +112,11 @@ img {
   position: relative;
   justify-content: center;
   
+  
 }
 .email {
   display: flex;
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   z-index: 2;
   position: relative;
   height: 60px;
@@ -205,7 +206,6 @@ img {
 }
 
 .info-section img {
-  
   padding: 1rem;
 }
 .watch-TV {
@@ -259,8 +259,41 @@ img {
   font-size: 1.5rem;
   cursor: pointer;
   float: right;
-    
 }
 .answear {
   padding: 1rem 2rem;
+}
+
+/*Footer*/
+.footer {
+  border-top:0.5rem solid #222;
+  padding: 3rem 2rem 3rem 2rem;
+}
+.footer-grid {
+  padding: 2rem 0 0 2rem;
+  display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-gap: 1rem;
+}
+.footer p{
+  padding-left: 2rem;
+  font-weight: 200;
+  color: #757577;
+}
+.footer a{
+  color: #757577;
+  font-size: 0.875rem;
+  cursor: pointer;
+}
+.switch {
+  padding: 1rem;
+  border:1px solid #757577;
+  background-color: #000;
+  border-radius: 3px;
+  color:#757577;
+  font-size: 1.125rem;
+  font-weight: 100;
+}
+.lang {
+  padding: 2rem;
 }

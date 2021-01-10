@@ -30,10 +30,6 @@ a {
   text-decoration: none;
 }
 
-p {
-  margin: 0,5rem 0;
-}
-
 img {
   width:100%;
 }
@@ -45,7 +41,6 @@ img {
   position: relative;
   background: url('../img/netflix-background.jpg') no-repeat center center/cover;
   padding-top: 20px;
-  
 }
 
 .showcase::after {
@@ -59,6 +54,7 @@ img {
   background: rgba(0, 0, 0, 0.6);
   box-shadow: inset 0px 100px 100px #000, inset -0px -100px 100px #000;
 }
+
 .showcase-top {
   position: relative;
   height: 90px;
@@ -83,21 +79,20 @@ img {
   text-align: center;
   position: relative;
   justify-content: center;
-  margin:2rem auto 2rem auto;
-  width: 640px;
+  margin:2rem auto 0 auto ;
   z-index: 2;
-  
 }
 
 .showcase-content h1 {
   font-size: 3.1rem;
-  margin-bottom: 1rem;
+  margin:auto;
+  padding: 1rem 5rem;
 }
 
 .showcase-content h2 {
   color:#fff;
   font-size: 1.75rem;
-  margin-bottom: 1.5rem;
+  padding: 1rem ;
 }
 .showcase-content p {
   color:#fff;
@@ -107,24 +102,29 @@ img {
 
 /* Email box style*/
 .email-box {
-  margin: 0 auto;
+  margin: 0 auto 2rem auto;
   z-index: 2;
   position: relative; 
-  padding: 2rem;
+ 
 }
 .email-box p {
   font-size: 1.125rem;
   color: #fff;
-  margin-bottom: 1rem;
+  padding: 1rem;
   text-align: center;
 }
 .email {
   display: flex;
   z-index: 2;
   position: relative;
-  height: 60px;
+  padding: 1rem;
   justify-content: center;
-  
+ 
+}
+
+.email-section {
+  display: flex;
+  height: 60px;
 }
 
 .email label {
@@ -138,7 +138,8 @@ img {
 #email-adress {
   padding: 1rem 2rem 0 1rem;
   font-size: 1rem;
-  min-width: 450px;
+  min-width: 640px;
+
 }
 
 /* Buttons*/
@@ -213,12 +214,13 @@ img {
 .info-section img {
   padding: 1rem;
 }
-.watch-TV {
+.watch-TV  {
   display: flex;
 }
 
 .download-fav {
   display: flex;
+  flex-direction: row-reverse;
 }
 
 .watch-evr {
@@ -250,7 +252,9 @@ img {
   background: #222;
   margin:0 auto;
   border-bottom:0.5rem solid #000;
-  max-width: 786px;
+  margin: 0 5rem;
+  min-width:250px ;
+  
 }
 
 .question {
@@ -301,4 +305,68 @@ img {
 }
 .lang {
   padding: 2rem;
+}
+
+@media (max-width: 960px) {
+  .showcase {
+    height: 70vh;
+  }
+  .showcase-content h1 {
+    font-size: 2rem;
+  }
+  .showcase-content h2 {
+    font-size: 1.25rem;
+    font-weight: 200;
+  }
+  .email-box{
+  margin: auto;
+  display: block;
+  }
+  .email{
+  flex-direction: column;
+   
+  }
+  .email-section {
+  margin:auto;
+  height: auto;
+  }
+
+  .btn-xl {
+  display: flex;
+  font-size: 1.25rem;
+  margin: 1rem auto;
+  width: 132px;
+  }
+  .email-box p {
+    font-size: 1rem;
+  }
+  .text h1 {
+    font-size: 2rem;
+  }
+  .text p {
+    font-size: 1.25rem;
+  }
+  .Q-A h1 {
+    font-size: 2rem;
+  }
+  .Q-A h3 {
+    font-size: 1.25rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .watch-TV, .download-fav, .watch-evr{
+    display:block;
+    text-align: center;
+  }
+ .img-size{
+   width: 75%;
+ }
+ .qa-block{
+   margin: 0 3rem;
+ }
+ #email-adress {
+  min-width: 385px;
+ }
+
 }

@@ -23,7 +23,7 @@
       <p>Zaczynamy oglądać? Wprowadź adres e‑mail, aby utworzyć lub odnowić konto.</p>
       <div class="email">
         <div class="email-section">
-          <input type="email" id="email-adress">
+          <input type="email" class="email-adress">
           <label for="email-adress">Adres e-mail</label>
         </div>
         <a href="#" class="btn btn-xl">Zacznij <i class="fas fa-chevron-right btn-icon"></i></a>
@@ -63,10 +63,12 @@
     <h1>Często zadawane pytania</h1>
     <div class="qa-block">
       <div class="question">
-        <h3>Czym jest Netflix ? <i class="fas fa-plus"></i></h3>
+        <h3>Czym jest Netflix ? 
+            <i class="fas fa-plus" onclick="showAnswear('answear1')" ></i>
+        </h3>
         
       </div>
-      <div class="answear">
+      <div class="answear" id="answear1">
           <h3>Netflix to usługa przesyłania strumieniowego, dzięki której użytkownicy mogą korzystać z szerokiej oferty nagradzanych filmów, seriali, programów, anime oraz produkcji dokumentalnych za pośrednictwem tysięcy urządzeń połączonych z internetem.
 
           Możesz oglądać do woli, gdziekolwiek jesteś — bez reklam i za jedną miesięczną opłatą. Co tydzień dodajemy nowe tytuły, więc zawsze jest coś ciekawego do obejrzenia.
@@ -75,19 +77,23 @@
     </div>
     <div class="qa-block">
       <div class="question">
-        <h3>Ile kosztuje korzystanie z serwisu Netflix ? <i class="fas fa-plus"></i></h3> 
+        <h3>Ile kosztuje korzystanie z serwisu Netflix ? 
+          <i class="fas fa-plus" onclick="showAnswear('answear2')"></i>
+        </h3> 
         
       </div>
-      <div class="answear">
+      <div class="answear" id="answear2">
         <h3>Oglądaj materiały z serwisu Netflix na smartfonie, tablecie, telewizorze Smart TV, laptopie lub innym urządzeniu do odtwarzania — za jedną stałą opłatą miesięczną. Mamy plany w cenie od 34 zł do 52 zł miesięcznie. Bez dodatkowych kosztów i bez umów.</h3>
       </div>
     </div>
     <div class="qa-block">
       <div class="question">
-        <h3>Gdzie mogę oglądać ? <i class="fas fa-plus"></i></h3>
+        <h3>Gdzie mogę oglądać ? 
+          <i class="fas fa-plus" onclick="showAnswear('answear3')"></i>
+        </h3>
         
       </div>
-      <div class="answear">
+      <div class="answear" id="answear3">
         <h3>Oglądaj w dowolnym miejscu, o każdej porze i na tylu urządzeniach, na ilu chcesz. Zaloguj się za pomocą danych swojego konta w witrynie netflix.com na komputerze lub na innym urządzeniu z dostępem do Internetu i zainstalowaną aplikacją Netflix, takim jak telewizor Smart TV, smartfon, tablet, odtwarzacz multimedialny czy konsola do gier.
 
         Możesz także pobierać ulubione programy na urządzenia przenośne z systemem iOS lub Android oraz na urządzenia z aplikacją dla systemu Windows 10. Pobrane tytuły możesz oglądać poza domem, bez połączenia z internetem. Korzystaj z serwisu Netflix, gdzie tylko chcesz.</h3>
@@ -95,18 +101,22 @@
     </div>
     <div class="qa-block">
       <div class="question">
-        <h3>Jak zrezygnować z członkostwa? <i class="fas fa-plus"></i> </h3>
+        <h3>Jak zrezygnować z członkostwa? 
+          <i class="fas fa-plus" onclick="showAnswear('answear4')"></i> 
+        </h3>
         
       </div>
-      <div class="answear">
+      <div class="answear" id="answear4">
         <h3>Netflix niczego nie narzuca. Żadnych zbędnych umów ani zobowiązań. Możesz w łatwy sposób anulować członkostwo online — wystarczą dwa kliknięcia. Nie naliczamy opłat za rezygnację, dlatego możesz rozpocząć członkostwo i zrezygnować z niego w dowolnej chwili.</h3>
       </div>
     </div>
     <div class="qa-block">
       <div class="question">
-        <h3>Jakie materiały mogę oglądać w serwisie Netflix ? <i class="fas fa-plus"></i></h3> 
+        <h3>Jakie materiały mogę oglądać w serwisie Netflix ? 
+          <i class="fas fa-plus" onclick="showAnswear('answear5')"></i>
+        </h3> 
       </div>
-      <div class="answear">
+      <div class="answear" id="answear5">
         <h3>Serwis Netflix oferuje dostęp do obszernej biblioteki zawierającej filmy pełnometrażowe i dokumentalne, seriale, programy, anime, nagradzane Netflix Originals i nie tylko. Oglądaj do woli, kiedy tylko chcesz.</h3>
       </div>
     </div>
@@ -114,7 +124,7 @@
       <p>Zaczynamy oglądać? Wprowadź adres e‑mail, aby utworzyć lub odnowić konto.</p>
       <div class="email">
         <div class="email-section">
-          <input type="email" id="email-adress">
+          <input type="email" class="email-adress">
           <label for="email-adress">Adres e-mail</label>
         </div>
         <a href="#" class="btn btn-xl">Zacznij <i class="fas fa-chevron-right btn-icon"></i></a>
@@ -150,5 +160,6 @@
     </div>
     <p>Netflix Originals</p>
   </div>
+  <script src="main.js"></script>
 </body>
 </html>

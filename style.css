@@ -189,12 +189,13 @@ img {
 
 .section {
   display: flex;
-  margin: 2rem 0 2rem 0;
+  margin: 2rem 0;
   border-top: 0.5rem solid #222;
 }
 
 .text {
-  margin: 3rem 2.5rem 1rem 2rem; 
+  margin: 5rem 1.5rem 5rem 4rem; 
+  
 }
 
 .text h1 {
@@ -252,13 +253,13 @@ img {
   background: #222;
   margin:0 auto;
   border-bottom:0.5rem solid #000;
-  margin: 0 5rem;
+  max-width: 768px;
   min-width:250px ;
   
 }
 
 .question {
-  padding: 1rem 2rem;
+  padding: 1.5rem 2rem;
   border-bottom:2px solid #000;
   display: block;
 }
@@ -375,6 +376,9 @@ img {
  }
  .email-adress {
   min-width: 385px;
+ }
+ .question h3 {
+   font-size: 1rem;
  }
 
 }

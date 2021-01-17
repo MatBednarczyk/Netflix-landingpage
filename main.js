@@ -13,3 +13,8 @@ function showAnswear(id) {
   else
       answear.style.display = 'block';
 }
+
+//favicon animation JQuery
+$(".question").click(function(){
+    $(this).toggleClass("active");
+})

@@ -307,6 +307,11 @@ img {
   padding: 2rem;
 }
 
+.active i{
+  transform: rotate(45deg);
+  
+}
+
 @media (max-width: 960px) {
   .showcase {
     height: 70vh;

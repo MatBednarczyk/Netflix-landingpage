@@ -78,21 +78,22 @@ img {
 .showcase-content {
   text-align: center;
   position: relative;
-  justify-content: center;
-  margin:2rem auto 0 auto ;
+  margin:5rem 6rem 0 6rem ;
   z-index: 2;
 }
 
 .showcase-content h1 {
   font-size: 3.1rem;
   margin:auto;
-  padding: 1rem 5rem;
+  padding:1rem;
+  
 }
 
 .showcase-content h2 {
   color:#fff;
   font-size: 1.75rem;
-  padding: 1rem ;
+  padding:0.5rem;
+  
 }
 .showcase-content p {
   color:#fff;
@@ -102,9 +103,10 @@ img {
 
 /* Email box style*/
 .email-box {
-  margin: 0 auto 2rem auto;
+  margin: 0 auto;
   z-index: 2;
   position: relative; 
+  padding-bottom: 3rem;
  
 }
 .email-box p {
@@ -189,15 +191,22 @@ img {
 
 .section {
   display: flex;
-  margin: 2rem 0;
+  margin: auto;
   border-top: 0.5rem solid #222;
-}
-
-.text {
-  margin: 5rem 1.5rem 5rem 4rem; 
+  padding: 3rem;
   
 }
 
+.text {
+  width: 100%;
+  margin: auto;
+}
+
+.img {
+  width: 100%;
+  justify-content: center;
+  display: flex;
+}
 .text h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
@@ -208,13 +217,6 @@ img {
   font-size: 1.75rem;
 }
 
-.img-size {
-  width: 50%;
-}
-
-.info-section img {
-  padding: 1rem;
-}
 .watch-TV  {
   display: flex;
 }
